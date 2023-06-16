@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@1,200&family=Lato:wght@300&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+.sidebar {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #925f30;
+    color: #333;
+}
+
+.nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li {
+    list-style: none;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+.nav a {
+    font-size: 1.2rem;
+    font-family: Berkshire Swash;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-shadow: 0 1px 1px #fff;
+}

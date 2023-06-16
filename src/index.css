@@ -7,6 +7,7 @@
 
 body {
   background-color: #ebebeb;
+  overflow-x: hidden;
 }
 
 .container {
