@@ -1,8 +1,8 @@
 import React from "react"
-import Header from "./components/Header/Header"
-import Navbar from "./components/Navbar/Navbar"
-import Banner from "./components/Banner/Banner"
-import Products from "./components/Products/Products"
+import Header from "./Components/Header/Header"
+import Navbar from "./Components/Navbar/Navbar"
+import Banner from "./Components/Banner/Banner"
+import Featured from "./Components/Featured/Featured"
 
 function App() {
 
@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <Navbar/>
       <Banner/>
-      <Products/>
+      <Featured/>
     </div>
   )
 }
