@@ -1,5 +1,5 @@
 import './Banner.css';
-import Container from '../Images/banner-bg.jpg'
+import Container from '../Images/banner-bg.jpg';
 
 const Banner =()=> {
     return(
