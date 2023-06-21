@@ -9,7 +9,7 @@ const Banner =()=> {
                 <div className="line">
                     <div className="line-color"></div>
                 </div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, aliquid. Voluptatibus similique voluptatem est, eius maxime aperiam doloribus. Ea deleniti optio minima iste!</p>
+                <p>Olá, seja bem vindo a NetWeb! É um prazer recebê-lo aqui. Nossa loja foi projeteda pensando em você, então fique a vontade e aproveite as nossas ofertas.</p>
                 <button type='button' className='view'><a href="./index.htm/">Confira</a></button>
             </div>
             <img src={Container} alt="banner" className='container-img'/>

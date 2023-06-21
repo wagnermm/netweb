@@ -5,8 +5,6 @@
     width: 100%;
     max-width: 500px;
     justify-content: center;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-
 }
 
 .search__input {
@@ -31,6 +29,7 @@
     font-weight: bolder;
     cursor: pointer;
     border-radius: 0 20px 20px 0;
+    visibility: visible;
 }
 
 .search__button:hover {

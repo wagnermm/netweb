@@ -9,6 +9,7 @@
     color: #fff;
     position: relative;
     cursor: pointer;
+    visibility: visible;
 }
 
 .cart-status {
