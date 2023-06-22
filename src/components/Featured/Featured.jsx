@@ -7,12 +7,6 @@ import Produto1 from '../Images/product-01.jpg';
 import Produto2 from '../Images/product-02.jpg';
 import Produto3 from '../Images/product-03.jpg';
 import Produto4 from '../Images/product-04.jpg';
-import Banner from '../Images/banner.png';
-import Banner1 from '../Images/banner1.png';
-import Roupa1 from '../Images/roupa1.png';
-import Roupa2 from '../Images/roupa2.png';
-import Roupa3 from '../Images/roupa3.png';
-import Roupa4 from '../Images/roupa4.png';
 import { RiTShirtLine } from 'react-icons/Ri';
 import { GiArmoredPants, GiShorts, GiDress, GiSkirt, GiBeachBag } from 'react-icons/Gi';
 
@@ -236,37 +230,6 @@ const Featured=()=> {
                             </div>
                         </div>
                     </a>
-                </div>
-            </div>
-            <div className="market-place">
-                <div className="market-banner">
-                    <img src={Banner} alt="banner1" />
-                    <div className="market-ads">
-                        <h4>Roupas Feminina</h4>
-                        <h2>Com até 50% de desconto</h2>
-                        <Carousel>
-                            <Carousel.Item>
-                                <img src={Roupa1} alt="roupa1" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img src={Roupa2} alt="roupa2" />
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <img src={Roupa3} alt="roupa3" />
-                            </Carousel.Item>
-                        </Carousel>
-                        <button className='btn-ads'><a href="#">Aproveite</a></button>
-                    </div>
-                </div>
-                <div className="winter">
-                    <div className="winter-banner">
-                        <img src={Banner1} alt="inverno" />
-                        <div className="winter-container">
-                            <h3>Moda Inverno</h3>
-                            <img src={Roupa4} alt="roupa" />
-                            <button className='btn-winter'><a href="#">Confira</a></button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
