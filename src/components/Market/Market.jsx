@@ -2,23 +2,23 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import './Market.css';
-import Banner from '../Images/banner.png';
-import Banner1 from '../Images/banner1.png';
-import Casal from '../Images/casal.png';
-import Roupa1 from '../Images/roupa1.png';
-import Roupa2 from '../Images/roupa2.png';
-import Roupa3 from '../Images/roupa3.png';
-import Roupa4 from '../Images/roupa4.png';
-import Roupa5 from '../Images/roupa5.png'
-import Roupa6 from '../Images/roupa6.png'
-import Nike from '../Images/nike.jpg';
-import Adidas from '../Images/adidas.jpg';
-import Coach from '../Images/coach.jpg';
-import Puma from '../Images/puma.jpg';
-import Gucci from '../Images/gucci.jpg';
-import Prada from '../Images/prada.jpg';
-import Versace from '../Images/versace.jpg';
-import Levis from '../Images/levis.jpg';
+import Banner from './img/banner.png';
+import Banner1 from './img/banner1.png';
+import Casal from './img/casal.png';
+import Roupa1 from './img/roupa1.png';
+import Roupa2 from './img/roupa2.png';
+import Roupa3 from './img/roupa3.png';
+import Roupa4 from './img/Roupa4.png';
+import Roupa5 from './img/Roupa5.png';
+import Roupa6 from './img/Roupa6.png';
+import Nike from './img/nike.jpg';
+import Adidas from './img/adidas.jpg';
+import Coach from './img/coach.jpg';
+import Puma from './img/puma.jpg';
+import Gucci from './img/gucci.jpg';
+import Prada from './img/prada.jpg';
+import Versace from './img/versace.jpg';
+import Levis from './img/levis.jpg';
 
 const Market=()=> {
     return(

@@ -1,4 +1,4 @@
-import LogoWeb from "../Images/logoweb.png";
+import LogoWeb from './img/logoweb.png';
 
 
 const Logo =()=> {

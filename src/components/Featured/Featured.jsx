@@ -3,10 +3,10 @@ import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import './Featured.css';
-import Produto1 from '../Images/product-01.jpg';
-import Produto2 from '../Images/product-02.jpg';
-import Produto3 from '../Images/product-03.jpg';
-import Produto4 from '../Images/product-04.jpg';
+import Produto1 from './img/product-01.jpg';
+import Produto2 from './img/product-02.jpg';
+import Produto3 from './img/product-03.jpg';
+import Produto4 from './img/product-04.jpg';
 import { RiTShirtLine } from 'react-icons/Ri';
 import { GiArmoredPants, GiShorts, GiDress, GiSkirt, GiBeachBag } from 'react-icons/Gi';
 
