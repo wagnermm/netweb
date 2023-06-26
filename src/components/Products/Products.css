@@ -1,4 +1,43 @@
 .products-container {
-    margin-top: 2rem;
+    position: relative;
+    bottom: -500px;
     width: 100%;
+    height: auto;
+    padding: 2rem; 
+}
+
+.products-title h1 {
+    width: 10%;
+    padding: 0.5rem;
+    border-bottom: 3px solid #02212e;
+}
+
+.carouselItem-title {
+    width: 100%;
+    text-align: center;
+}
+
+.item-carousel {
+    width: 100%;
+    padding: 2rem;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.item-carousel a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.item-carousel img {
+    width: 20%;
+    height: 300px;
+    margin-right: 2rem;
+}
+
+.item-describe {
+    position: absolute;
+    width: 19%;
+    background: #02212e;
+    text-align: center;
 }
