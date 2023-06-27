@@ -133,7 +133,7 @@ const Featured=()=> {
             </Carousel>
             <div className="featured">
                 <div className="featured-title">
-                    <h3>Últimos lançamentos</h3>
+                    <h3>Últimas unidades</h3>
                 </div>
                 <div className='featured-item'>
                     <a>
@@ -145,7 +145,7 @@ const Featured=()=> {
                             <div className="price-item">
                                 <h5>Calça Masculina</h5>
                                 <h6>Apenas</h6>
-                                <h3>R$ 299,00</h3>
+                                <h3>R$ 99,00</h3>
                             </div>
                             <div className="item-description">
                                 <button><a href="#">Comprar</a></button>
@@ -171,7 +171,7 @@ const Featured=()=> {
                             <div className="price-item">
                                 <h5>Colete</h5>
                                 <h6>Apenas</h6>
-                                <h3>R$ 199,00</h3>
+                                <h3>R$ 129,00</h3>
                             </div>
                             <div className="item-description">
                                 <button><a href="#">Comprar</a></button>
@@ -197,7 +197,7 @@ const Featured=()=> {
                             <div className="price-item">
                                 <h5>Blusa Feminina</h5>
                                 <h6>Apenas</h6>
-                                <h3>R$ 159,00</h3>
+                                <h3>R$ 89,00</h3>
                             </div>
                             <div className="item-description">
                                 <button><a href="#">Comprar</a></button>
@@ -223,7 +223,7 @@ const Featured=()=> {
                             <div className="price-item">
                                 <h5>Bolsa</h5>
                                 <h6>Apenas</h6>
-                                <h3>R$ 199,00</h3>
+                                <h3>R$ 109,00</h3>
                             </div>
                             <div className="item-description">
                                 <button><a href="#">Comprar</a></button>
