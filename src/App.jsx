@@ -5,6 +5,7 @@ import Banner from "./Components/Banner/Banner";
 import Featured from "./Components/Featured/Featured";
 import Market from "./Components/Market/Market";
 import Products from "./Components/Products/Products";
+import Bags from "./Components/Bags/Bag";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Featured/>
       <Market/>
       <Products/>
+      <Bags/>
     </div>
   )
 }

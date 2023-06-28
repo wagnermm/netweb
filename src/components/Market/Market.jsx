@@ -22,7 +22,7 @@ import Levis from './img/levis.jpg';
 
 const Market=()=> {
     return(
-        <div className="market-place">
+        <div className="market-place" id='market'>
                 <div className="market-banner">
                     <img src={Banner} alt="banner1" />
                     <div className="market-ads">
@@ -66,7 +66,7 @@ const Market=()=> {
                     </div>
                 </div>
                 <div className="market-container">
-                    <h2>Navegue pelas marcas</h2>
+                    <h2>Escolha a sua marca favorita</h2>
                     <Carousel className='market-carousel'>
                         <Carousel.Item className='market-logo'>
                             <a href="#"><img src={Nike} alt="nike" /></a>

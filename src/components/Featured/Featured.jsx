@@ -116,7 +116,7 @@ const Featured=()=> {
                                 <GiBeachBag/>
                             </div>
                             <div className="ads-text">
-                                <a href="#"><p>2 por R$99</p></a>
+                                <a href="#"><p>2 por R$129</p></a>
                             </div>
                         </div>
                         <div className="ads-cards">
