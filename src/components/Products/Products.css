@@ -21,6 +21,7 @@
     padding: 2rem;
     flex-wrap: wrap;
     gap: 5rem;
+    margin-bottom: 8rem;
 }
 
 .item-carousel a {
@@ -29,7 +30,263 @@
 }
 
 .item-carousel img {
+    position: relative;
     width: 20%;
     height: 250px;
     margin-right: 2rem;
+}
+
+.masculino1 {
+    position: absolute;
+    bottom: -3vh;
+    left: 10vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.masculino2 {
+    position: absolute;
+    bottom: -3vh;
+    left: 30.5vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.masculino3 {
+    position: absolute;
+    bottom: -3vh;
+    right: 33vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.masculino4 {
+    position: absolute;
+    bottom: -3vh;
+    right: 12.5vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.masculino5 {
+    position: absolute;
+    bottom: -3vh;
+    left: 10vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.masculino6 {
+    position: absolute;
+    bottom: -3vh;
+    left: 30.5vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.masculino7 {
+    position: absolute;
+    bottom: -3vh;
+    right: 33vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.masculino8 {
+    position: absolute;
+    bottom: -3vh;
+    right: 12.5vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.masculino1 p, .masculino2 p,
+.masculino3 p, .masculino4 p,
+.masculino5 p, .masculino6 p,
+.masculino7 p, .masculino8 p {
+    background: #000;
+    color: #fff;
+}
+
+.masculino1 h2, .masculino2 h2,
+.masculino3 h2, .masculino4 h2,
+.masculino5 h2, .masculino6 h2,
+.masculino7 h2, .masculino8 h2 {
+    background: #300101;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+}
+
+.feminino1 {
+    position: absolute;
+    bottom: -3vh;
+    left: 10vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feminino2 {
+    position: absolute;
+    bottom: -3vh;
+    left: 30.5vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feminino3 {
+    position: absolute;
+    bottom: -3vh;
+    right: 33vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feminino4 {
+    position: absolute;
+    bottom: -3vh;
+    right: 12.5vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feminino5 {
+    position: absolute;
+    bottom: -3vh;
+    left: 10vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feminino6 {
+    position: absolute;
+    bottom: -3vh;
+    left: 30.5vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feminino7 {
+    position: absolute;
+    bottom: -3vh;
+    right: 33vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feminino8 {
+    position: absolute;
+    bottom: -3vh;
+    right: 12.5vw;
+    height: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feminino1 p, .feminino2 p,
+.feminino3 p, .feminino4 p,
+.feminino5 p, .feminino6 p,
+.feminino7 p, .feminino8 p {
+    background: #000;
+    color: #fff;
+}
+
+.feminino1 h2, .feminino2 h2,
+.feminino3 h2, .feminino4 h2,
+.feminino5 h2, .feminino6 h2,
+.feminino7 h2, .feminino8 h2 {
+    background: #300101;
+    color: #fff;
+    box-shadow: 1px 1px 2px #000;
+}
+
+.comprar-item {
+    background: #063549;
+    color: #fff;
+    border-radius: 0.5rem;
+    width: 6rem;
+    height: 2.5rem;
+    visibility: visible;
+}
+
+.comprar-item:hover {
+    background: #024e6e;
 }

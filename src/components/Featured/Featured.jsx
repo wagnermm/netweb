@@ -59,7 +59,7 @@ const Featured=()=> {
                             </div>
                         </div>
                         <div className="ads-cards">
-                        <div className="ads-icon">
+                            <div className="ads-icon">
                                 <GiArmoredPants/>
                                 <GiArmoredPants/>
                             </div>
@@ -68,7 +68,7 @@ const Featured=()=> {
                             </div>
                         </div>
                         <div className="ads-cards">
-                        <div className="ads-icon">
+                            <div className="ads-icon">
                                 <RiTShirtLine/>
                                 <GiArmoredPants/>
                             </div>
@@ -77,7 +77,7 @@ const Featured=()=> {
                             </div>
                         </div>
                         <div className="ads-cards">
-                        <div className="ads-icon">
+                            <div className="ads-icon">
                                 <GiShorts/>
                                 <GiShorts/>
                             </div>

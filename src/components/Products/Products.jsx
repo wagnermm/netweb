@@ -31,32 +31,74 @@ const Products=()=> {
                 </div>
                 <Carousel>
                     <Carousel.Item className='item-carousel'>
-                        <a href="#">
-                            <img src={CamisaLevis} alt="camisa"/>
-                        </a>
-                        <a href="#">
-                            <img src={BlusaCoach} alt="blusa"/>
-                        </a>
-                        <a href="#">
-                            <img src={CamisaGucci} alt="camisa"/>
-                        </a>
-                        <a href="#">
-                            <img src={CalcaLevis} alt="calça"/>
-                        </a>
+                        <img src={CamisaLevis} alt="camisa"/>
+                        <div className="masculino1">
+                            <p>Camisa Levis</p>
+                            <h2>R$ 199,90</h2>
+                            <div className="select-masculino">
+                                <a href="#">
+                                    <button className='comprar-item'>Comprar</button>
+                                </a>
+                            </div>
+                        </div>
+                        <img src={BlusaCoach} alt="blusa"/>
+                        <div className="masculino2">
+                            <p>Moleton Coach</p>
+                            <h2>R$ 209,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
+                        <img src={CamisaGucci} alt="camisa"/>
+                            <div className="masculino3">
+                                <p>Camiseta Gucci</p>
+                                <h2>R$ 99,90</h2>
+                                <a href="#">
+                                    <button className='comprar-item'>Comprar</button>
+                                </a>
+                            </div>
+                        <img src={CalcaLevis} alt="calça"/>
+                        <div className="masculino4">
+                            <p>Calça Levis</p>
+                            <h2>R$ 199,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
                     </Carousel.Item>
                     <Carousel.Item className='item-carousel'>
-                        <a href="#">
-                            <img src={AgasalhoAdidas} alt="agasalho"/>
-                        </a>
-                        <a href="#">
-                            <img src={JaquetaNike} alt="jaqueta"/>
-                        </a>
-                        <a href="#">
-                            <img src={JaquetaPuma} alt="jaqueta"/>
-                        </a>
-                        <a href="#">
-                            <img src={BlusaGucci} alt="blusa"/>
-                        </a>
+                        <img src={AgasalhoAdidas} alt="agasalho"/>
+                        <div className="masculino5">
+                            <p>Agasalho Adidas</p>
+                            <h2>R$ 299,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
+                        <img src={JaquetaNike} alt="jaqueta"/>
+                        <div className="masculino6">
+                            <p>Jaqueta Nike</p>
+                            <h2>R$ 399,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
+                        <img src={JaquetaPuma} alt="jaqueta"/>
+                        <div className="masculino7">
+                            <p>Blusa Puma</p>
+                            <h2>R$ 259,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
+                        <img src={BlusaGucci} alt="blusa"/>
+                        <div className="masculino8">
+                            <p>Moleton Gucci</p>
+                            <h2>R$ 179,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
                     </Carousel.Item>
                 </Carousel>
             </div>
@@ -66,32 +108,72 @@ const Products=()=> {
                 </div>
                 <Carousel>
                     <Carousel.Item className='item-carousel'>
-                        <a href="#">
-                            <img src={CamisaVersace} alt="camisa"/>
-                        </a>
-                        <a href="#">
-                            <img src={BlusaPrada} alt="blusa"/>
-                        </a>
-                        <a href="#">
-                            <img src={CamisetaGucci} alt="camiseta"/>
-                        </a>
-                        <a href="#">
-                            <img src={BlusaNike} alt="blusa"/>
-                        </a>
+                        <img src={CamisaVersace} alt="camisa"/>
+                        <div className="feminino1">
+                            <p>Camisa Versace</p>
+                            <h2>R$ 189,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>                    
+                        <img src={BlusaPrada} alt="blusa"/>
+                        <div className="feminino2">
+                            <p>Blusa Prada</p>
+                            <h2>R$ 129,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
+                        <img src={CamisetaGucci} alt="camiseta"/>
+                        <div className="feminino3">
+                            <p>Camiseta Gucci</p>
+                            <h2>R$ 99,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
+                        <img src={BlusaNike} alt="blusa"/>
+                        <div className="feminino4">
+                            <p>Moleton Nike</p>
+                            <h2>R$ 299,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
                     </Carousel.Item>
                     <Carousel.Item className='item-carousel'>
-                        <a href="#">
-                            <img src={MoletonAdidas} alt="moleton"/>
-                        </a>
-                        <a href="#">
-                            <img src={CalcaLevisFem} alt="calca"/>
-                        </a>
-                        <a href="#">
-                            <img src={JaquetaPumaFem} alt="jaqueta"/>
-                        </a>
-                        <a href="#">
-                            <img src={CamisetaLevis} alt="camiseta"/>
-                        </a>
+                        <img src={MoletonAdidas} alt="moleton"/>
+                        <div className="feminino5">
+                            <p>Moleton Adidas</p>
+                            <h2>R$ 299,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>                  
+                        <img src={CalcaLevisFem} alt="calca"/>
+                        <div className="feminino6">
+                            <p>Calça Levis</p>
+                            <h2>R$ 199,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>                  
+                        <img src={JaquetaPumaFem} alt="jaqueta"/>
+                        <div className="feminino7">
+                            <p>Jaqueta Puma</p>
+                            <h2>R$ 259,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>                 
+                        <img src={CamisetaLevis} alt="camiseta"/>
+                        <div className="feminino8">
+                            <p>Camiseta Levis</p>
+                            <h2>R$ 99,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
                     </Carousel.Item>
                 </Carousel>
             </div>
