@@ -15,7 +15,7 @@ import Bag12 from './img/bolsa12.jpg';
 
 const Bag=()=> {
     return(
-        <div className="bag-container">
+        <div className="bag-container" id='bags'>
             <div className="bagsBanner">
                 <div className="bag-template">
                     <h2>Combinação perfeita para o seu dia a dia</h2>

@@ -21,7 +21,7 @@ import JaquetaPumaFem from './img/jaquetapumafem.jpg';
 
 const Products=()=> {
     return(
-        <div className="products-container" id='products'>
+        <div className="products-container" id='clothes'>
             <div className="products-title">
                 <h1>Destaques</h1>
             </div>

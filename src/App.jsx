@@ -6,6 +6,7 @@ import Featured from "./Components/Featured/Featured";
 import Market from "./Components/Market/Market";
 import Products from "./Components/Products/Products";
 import Bags from "./Components/Bags/Bag";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Market/>
       <Products/>
       <Bags/>
+      <Footer/>
     </div>
   )
 }
