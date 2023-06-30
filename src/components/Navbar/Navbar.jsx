@@ -8,9 +8,9 @@ const Navbar=()=> {
             <nav className="nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#clothes">Confecção</a></li>
+                    <li><a href="#clothes">Confecções</a></li>
                     <li><a href="#bags">Acessórios</a></li>
-                    <li><a href="#contact">Contato</a></li>
+                    <li><a href="#information">Informações</a></li>
                 </ul>
             </nav>
         </div>

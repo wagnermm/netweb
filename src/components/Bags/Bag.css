@@ -37,7 +37,7 @@
     position: relative;
     font-size: 1.8rem;
     background: #aa05aa;
-    border: 1px solid #ffe601;
+    border: none;
     width: 12rem;
     height: 2.8rem;
     visibility: visible;
@@ -86,9 +86,14 @@
 .bolsa-comprar {
     background: #aa05aa;
     border-radius: 0.5rem;
+    border: none;
     width: 6rem;
     height: 2.5rem;
     visibility: visible;
+}
+
+.bolsa-comprar:hover {
+    background: #850385;
 }
 
 .bolsa-comprar a {
