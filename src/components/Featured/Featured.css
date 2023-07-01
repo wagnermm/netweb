@@ -212,3 +212,28 @@
     height: 1rem;
     margin-left: 0.5rem;
 }
+
+@media (max-width: 900px) {
+    .carousel-ads {
+        width: 900px;
+        height: 55px;
+    }
+    .ads-cards {
+        height: 5rem;
+    }
+    .featured {
+        width: 900px;
+    }
+    .featured-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .featured-item img {
+        width: 200px;
+        height: 200px;
+        margin: 0.5rem;
+    }
+}

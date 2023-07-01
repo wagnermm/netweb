@@ -43,7 +43,7 @@ const Featured=()=> {
     };
     return(
         <div>
-            <Carousel>
+            <Carousel className='carousel-ads'>
                 <Carousel.Item>
                     <div className="ads-container">
                         <div className="ads-title">

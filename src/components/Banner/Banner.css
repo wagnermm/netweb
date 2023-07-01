@@ -56,3 +56,20 @@
     text-decoration: none;
     color: #fff;
 }
+
+@media (max-width: 480px) {
+    .template {
+        width: 60%;
+    }
+}
+
+@media (max-width: 900px) {
+    .banner img {
+        width: 900px;
+    }
+    .template {
+        top: 10rem;
+        height: 60%;
+        overflow: hidden;
+    }
+}

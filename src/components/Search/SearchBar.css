@@ -36,3 +36,9 @@
     background: #07617c;
     color: #fff;
 }
+
+@media (max-width: 480px) {
+    .search-bar {
+        width: 50%;
+    }
+}
