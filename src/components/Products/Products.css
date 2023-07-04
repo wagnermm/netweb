@@ -290,3 +290,12 @@
 .comprar-item:hover {
     background: #024e6e;
 }
+
+@media (max-width: 1024px) {
+    .products-container {
+        width: 900px;
+    }
+    .item-carousel img {
+        height: 180px;
+    }
+}

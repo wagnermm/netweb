@@ -73,7 +73,7 @@ const Featured=()=> {
                                 <GiArmoredPants/>
                             </div>
                             <div className="ads-text">
-                                <a href="#"><p>Escolha o seu</p></a>
+                                <a href="#"><p>Combos</p></a>
                             </div>
                         </div>
                         <div className="ads-cards">
@@ -125,7 +125,7 @@ const Featured=()=> {
                                 <GiBeachBag/>
                             </div>
                             <div className="ads-text">
-                                <a href="#"><p>Escolha o seu</p></a>
+                                <a href="#"><p>Combos</p></a>
                             </div>
                         </div>
                     </div>

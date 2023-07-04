@@ -13,7 +13,7 @@ header > div {
     padding: 20px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 996px) {
     .header {
         position: absolute;
         width: 900px;
