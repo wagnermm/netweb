@@ -51,7 +51,6 @@
 
 .winter-banner img {
     width: 100%;
-    position: relative;
 }
 
 .winter-container {
@@ -135,5 +134,8 @@
         align-items: center;
         text-align: center;
         padding: 0;
+    }
+    .btn-winter {
+        margin-top: 0;
     }
 }

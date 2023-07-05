@@ -67,3 +67,9 @@ li .title {
     margin-right: 0.5rem;
 }
 
+@media (max-width: 996px) {
+    .footer-container {
+        width: 900px;
+    }
+}
+
