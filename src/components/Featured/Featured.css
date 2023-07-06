@@ -213,9 +213,9 @@
     margin-left: 0.5rem;
 }
 
-@media (max-width: 996px) {
+@media (max-width: 1024px) {
     .carousel-ads {
-        width: 900px;
+        width: 1024px;
     }
     .ads-container {
         display: flex;
@@ -231,7 +231,7 @@
         font-size: 1.2rem;
     }
     .featured {
-        width: 900px;
+        width: 1024px;
     }
     .featured-item {
         display: flex;
