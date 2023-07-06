@@ -1,28 +1,18 @@
 .header {
     background-color: #02212e;
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     z-index: 2;
 }
 
-header > div {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+.nav__menu {
+    display: none;
 }
 
-@media (max-width: 996px) {
+@media (max-width: 1024px) {
     .header {
-        position: absolute;
-        width: 900px;
+        width: 1024px;
         height: 14vh;
-    }
-    .header > div {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
     }
 }

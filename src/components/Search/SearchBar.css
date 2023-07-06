@@ -1,10 +1,11 @@
 .search-bar {
+    position: relative;
     display: flex;
+    margin: 0 auto;
+    margin-top: 2rem;
     background: #ffffff;
     border-radius: 20px;
-    width: 100%;
-    max-width: 500px;
-    justify-content: center;
+    width: 500px;
 }
 
 .search__input {
@@ -37,8 +38,8 @@
     color: #fff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
     .search-bar {
-        width: 50%;
+        width: 350px;
     }
 }

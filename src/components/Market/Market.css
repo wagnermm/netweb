@@ -84,6 +84,7 @@
     width: 6rem;
     height: 2.5rem;
     visibility: visible;
+    z-index: 2;
 }
 
 .btn-winter:hover {
@@ -136,6 +137,8 @@
         padding: 0;
     }
     .btn-winter {
-        margin-top: 0;
+        position: absolute;
+        top: 40vh;
+        left: 5vw;
     }
 }

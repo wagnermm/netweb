@@ -4,10 +4,9 @@
     font-size: 2rem;
     padding: 5px;
     display: flex;
-    align-items: center;
-    justify-content: center;
     color: #fff;
     position: relative;
+    float: right;
     cursor: pointer;
     visibility: visible;
 }
@@ -26,4 +25,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media (max-width: 768px) {
+    .shopping-cart {
+        position: absolute;
+        top: 5vh;
+        right: 0 auto !important;
+    }
+}
+
+@media (max-width:1024px) {
+    .shopping-cart {
+        position: absolute;
+        top: 5vh;
+        right: 15vw;
+    }
 }

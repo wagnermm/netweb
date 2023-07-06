@@ -325,9 +325,19 @@
 
 @media (max-width: 1024px) {
     .products-container {
-        width: 900px;
+        width: 1024px;
     }
     .item-carousel img {
         height: 180px;
+    }
+    .masculino2, .masculino6,
+    .feminino2, .feminino6 {
+        right: 60vw;
+        font-size: 1rem;
+    }
+    .masculino3, .masculino7,
+    .feminino3, .feminino7 {
+        left: 60vw;
+        font-size: 1rem;
     }
 }
