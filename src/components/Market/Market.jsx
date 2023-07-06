@@ -47,18 +47,18 @@ const Market=()=> {
                         <img src={Banner1} alt="inverno" />
                         <div className="winter-container">
                             <h3>Moda Inverno</h3>
-                            <Carousel className='winter-carousel'>
-                                <Carousel.Item className='winter-images'>
-                                    <img src={Casal} alt="casal" />
+                            <Carousel>
+                                <Carousel.Item>
+                                    <img src={Casal} alt="casal" className='winter-clothes'/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={Roupa4} alt="roupa" />
+                                    <img src={Roupa4} alt="roupa" className='winter-clothes'/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={Roupa5} alt="roupa" />
+                                    <img src={Roupa5} alt="roupa" className='winter-clothes'/>
                                 </Carousel.Item>
                                 <Carousel.Item>
-                                    <img src={Roupa6} alt="roupa" />
+                                    <img src={Roupa6} alt="roupa" className='winter-clothes'/>
                                 </Carousel.Item>
                             </Carousel>
                             <button className='btn-winter'><a href="#">Confira</a></button>

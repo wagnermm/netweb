@@ -62,6 +62,10 @@
     height: auto;
 }
 
+.winter-clothes {
+    height: 300px;
+}
+
 .winter-container h3 {
     position: relative;
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(15,4,112,1) 100%);
@@ -71,20 +75,12 @@
     z-index: 1;
 }
 
-.winter-carousel {
-    position: relative;
-    height: 50vh;
-}
-
 .btn-winter {
-    position: relative;
-    margin-top: 0.5rem;
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(15,4,112,1) 100%);
     border-radius: 0.5rem;
     width: 6rem;
     height: 2.5rem;
     visibility: visible;
-    z-index: 2;
 }
 
 .btn-winter:hover {
@@ -135,10 +131,5 @@
         align-items: center;
         text-align: center;
         padding: 0;
-    }
-    .btn-winter {
-        position: absolute;
-        top: 40vh;
-        left: 5vw;
     }
 }
