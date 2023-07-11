@@ -71,6 +71,10 @@
     .toggle .line3 {
         transform: rotate(45deg) translate(-4px, -5px);
     }
+    .close__menu {
+        color: #fff;
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width: 1024px) {
