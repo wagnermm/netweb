@@ -59,7 +59,7 @@
 
 @media (max-width: 480px) {
     .template {
-        width: 60%;
+        width: 70%;
     }
 }
 
@@ -68,8 +68,8 @@
         width: 1024px;
     }
     .template {
-        top: 15rem;
-        height: 50%;
+        top: 13rem;
+        height: 60%;
         overflow: hidden;
     }
 }
