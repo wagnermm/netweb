@@ -5,7 +5,7 @@
 <table>
   <tr>
     <td align="center" width="96">
-      <img src="./images/vite-react.jpg" alt="icon"  width="120" height="80">
+      <img src="./images/vite-react.jpg" alt="icon"  width="120" height="40">
     </td>
   </tr>
 </table>
