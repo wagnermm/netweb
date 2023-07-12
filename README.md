@@ -4,7 +4,7 @@
 ## Tecnologias utilizadas:
 <table>
   <tr>
-    <td align="center" width="96">
+    <td align="center">
       <img src="./images/vite-react.jpg" alt="icon" width="40" height="40" style="max-width: 100%;">
     </td>
   </tr>
