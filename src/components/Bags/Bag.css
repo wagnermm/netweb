@@ -66,6 +66,11 @@
     height: 300px;
 }
 
+.bag-card img:hover {
+    opacity: 95%;
+    border: 5px solid #fff;
+}
+
 .bag-info {
     position: absolute;
     width: 27%;

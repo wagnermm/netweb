@@ -1,4 +1,4 @@
-import React from 'react';
+import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Carousel from 'react-bootstrap/Carousel';
 import './Products.css';
@@ -20,6 +20,70 @@ import CamisetaLevis from './img/camisetalevis.jpg';
 import JaquetaPumaFem from './img/jaquetapumafem.jpg';
 
 const Products=()=> {
+    const [masc1, setMasc1] = useState("masculino1-hidden");
+    const showMasc1=()=> {
+        masc1 === 'masculino1-hidden' ? setMasc1('masculino1') : setMasc1('masculino1-hidden');
+    };
+    const [masc2, setMasc2] = useState("masculino2-hidden");
+    const showMasc2=()=> {
+        masc2 === 'masculino2-hidden' ? setMasc2('masculino2') : setMasc2('masculino2-hidden');
+    };
+    const [masc3, setMasc3] = useState("masculino3-hidden");
+    const showMasc3=()=> {
+        masc3 === 'masculino3-hidden' ? setMasc3('masculino3') : setMasc3('masculino3-hidden');
+    };
+    const [masc4, setMasc4] = useState("masculino4-hidden");
+    const showMasc4=()=> {
+        masc4 === 'masculino4-hidden' ? setMasc4('masculino4') : setMasc4('masculino4-hidden');
+    };
+    const [masc5, setMasc5] = useState("masculino5-hidden");
+    const showMasc5=()=> {
+        masc5 === 'masculino5-hidden' ? setMasc5('masculino5') : setMasc5('masculino5-hidden');
+    };
+    const [masc6, setMasc6] = useState("masculino6-hidden");
+    const showMasc6=()=> {
+        masc6 === 'masculino6-hidden' ? setMasc6('masculino6') : setMasc6('masculino6-hidden');
+    };
+    const [masc7, setMasc7] = useState("masculino7-hidden");
+    const showMasc7=()=> {
+        masc7 === 'masculino7-hidden' ? setMasc7('masculino7') : setMasc7('masculino7-hidden');
+    };
+    const [masc8, setMasc8] = useState("masculino8-hidden");
+    const showMasc8=()=> {
+        masc8 === 'masculino8-hidden' ? setMasc8('masculino8') : setMasc8('masculino8-hidden');
+    };
+    const [fem1, setFem1] = useState("feminino1-hidden");
+    const showFem1=()=> {
+        fem1 === 'feminino1-hidden' ? setFem1('feminino1') : setFem1('feminino1-hidden');
+    };
+    const [fem2, setFem2] = useState("feminino2-hidden");
+    const showFem2=()=> {
+        fem2 === 'feminino2-hidden' ? setFem2('feminino2') : setFem2('feminino2-hidden');
+    };
+    const [fem3, setFem3] = useState("feminino3-hidden");
+    const showFem3=()=> {
+        fem3 === 'feminino3-hidden' ? setFem3('feminino3') : setFem3('feminino3-hidden');
+    };
+    const [fem4, setFem4] = useState("feminino4-hidden");
+    const showFem4=()=> {
+        fem4 === 'feminino4-hidden' ? setFem4('feminino4') : setFem4('feminino4-hidden');
+    };
+    const [fem5, setFem5] = useState("feminino5-hidden");
+    const showFem5=()=> {
+        fem5 === 'feminino5-hidden' ? setFem5('feminino5') : setFem5('feminino5-hidden');
+    };
+    const [fem6, setFem6] = useState("feminino6-hidden");
+    const showFem6=()=> {
+        fem6 === 'feminino6-hidden' ? setFem6('feminino6') : setFem6('feminino6-hidden');
+    };
+    const [fem7, setFem7] = useState("feminino7-hidden");
+    const showFem7=()=> {
+        fem7 === 'feminino7-hidden' ? setFem7('feminino7') : setFem7('feminino7-hidden');
+    };
+    const [fem8, setFem8] = useState("feminino8-hidden");
+    const showFem8=()=> {
+        fem8 === 'feminino8-hidden' ? setFem8('feminino8') : setFem8('feminino8-hidden');
+    };
     return(
         <div className="products-container" id='clothes'>
             <div className="products-title">
@@ -31,8 +95,8 @@ const Products=()=> {
                 </div>
                 <Carousel>
                     <Carousel.Item className='item-carousel'>
-                        <img src={CamisaLevis} alt="camisa"/>
-                        <div className="masculino1">
+                        <img src={CamisaLevis} alt="camisa" onClick={showMasc1}/>
+                        <div className={masc1}>
                             <p>Camisa Levis</p>
                             <h2>R$ 199,90</h2>
                             <div className="select-masculino">
@@ -41,24 +105,24 @@ const Products=()=> {
                                 </a>
                             </div>
                         </div>
-                        <img src={BlusaCoach} alt="blusa"/>
-                        <div className="masculino2">
+                        <img src={BlusaCoach} alt="blusa" onClick={showMasc2}/>
+                        <div className={masc2}>
                             <p>Moleton Coach</p>
                             <h2>R$ 209,90</h2>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>
                         </div>
-                        <img src={CamisaGucci} alt="camisa"/>
-                            <div className="masculino3">
-                                <p>Camiseta Gucci</p>
-                                <h2>R$ 99,90</h2>
-                                <a href="#">
-                                    <button className='comprar-item'>Comprar</button>
-                                </a>
-                            </div>
-                        <img src={CalcaLevis} alt="calça"/>
-                        <div className="masculino4">
+                        <img src={CamisaGucci} alt="camisa" onClick={showMasc3}/>
+                        <div className={masc3}>
+                            <p>Camiseta Gucci</p>
+                            <h2>R$ 99,90</h2>
+                            <a href="#">
+                                <button className='comprar-item'>Comprar</button>
+                            </a>
+                        </div>
+                        <img src={CalcaLevis} alt="calça" onClick={showMasc4}/>
+                        <div className={masc4}>
                             <p>Calça Levis</p>
                             <h2>R$ 199,90</h2>
                             <a href="#">
@@ -67,32 +131,32 @@ const Products=()=> {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item className='item-carousel'>
-                        <img src={AgasalhoAdidas} alt="agasalho"/>
-                        <div className="masculino5">
+                        <img src={AgasalhoAdidas} alt="agasalho" onClick={showMasc5}/>
+                        <div className={masc5}>
                             <p>Agasalho Adidas</p>
                             <h2>R$ 299,90</h2>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>
                         </div>
-                        <img src={JaquetaNike} alt="jaqueta"/>
-                        <div className="masculino6">
+                        <img src={JaquetaNike} alt="jaqueta" onClick={showMasc6}/>
+                        <div className={masc6}>
                             <p>Jaqueta Nike</p>
                             <h2>R$ 399,90</h2>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>
                         </div>
-                        <img src={JaquetaPuma} alt="jaqueta"/>
-                        <div className="masculino7">
+                        <img src={JaquetaPuma} alt="jaqueta" onClick={showMasc7}/>
+                        <div className={masc7}>
                             <p>Blusa Puma</p>
                             <h2>R$ 259,90</h2>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>
                         </div>
-                        <img src={BlusaGucci} alt="blusa"/>
-                        <div className="masculino8">
+                        <img src={BlusaGucci} alt="blusa" onClick={showMasc8}/>
+                        <div className={masc8}>
                             <p>Moleton Gucci</p>
                             <h2>R$ 179,90</h2>
                             <a href="#">
@@ -108,32 +172,32 @@ const Products=()=> {
                 </div>
                 <Carousel>
                     <Carousel.Item className='item-carousel'>
-                        <img src={CamisaVersace} alt="camisa"/>
-                        <div className="feminino1">
+                        <img src={CamisaVersace} alt="camisa" onClick={showFem1}/>
+                        <div className={fem1}>
                             <p>Camisa Versace</p>
                             <h2>R$ 189,90</h2>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>
                         </div>                    
-                        <img src={BlusaPrada} alt="blusa"/>
-                        <div className="feminino2">
+                        <img src={BlusaPrada} alt="blusa" onClick={showFem2}/>
+                        <div className={fem2}>
                             <p>Blusa Prada</p>
                             <h2>R$ 129,90</h2>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>
                         </div>
-                        <img src={CamisetaGucci} alt="camiseta"/>
-                        <div className="feminino3">
+                        <img src={CamisetaGucci} alt="camiseta" onClick={showFem3}/>
+                        <div className={fem3}>
                             <p>Camiseta Gucci</p>
                             <h2>R$ 99,90</h2>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>
                         </div>
-                        <img src={BlusaNike} alt="blusa"/>
-                        <div className="feminino4">
+                        <img src={BlusaNike} alt="blusa" onClick={showFem4}/>
+                        <div className={fem4}>
                             <p>Moleton Nike</p>
                             <h2>R$ 299,90</h2>
                             <a href="#">
@@ -142,32 +206,32 @@ const Products=()=> {
                         </div>
                     </Carousel.Item>
                     <Carousel.Item className='item-carousel'>
-                        <img src={MoletonAdidas} alt="moleton"/>
-                        <div className="feminino5">
+                        <img src={MoletonAdidas} alt="moleton" onClick={showFem5}/>
+                        <div className={fem5}>
                             <p>Moleton Adidas</p>
                             <h2>R$ 299,90</h2>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>
                         </div>                  
-                        <img src={CalcaLevisFem} alt="calca"/>
-                        <div className="feminino6">
+                        <img src={CalcaLevisFem} alt="calca" onClick={showFem6}/>
+                        <div className={fem6}>
                             <p>Calça Levis</p>
                             <h2>R$ 199,90</h2>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>
                         </div>                  
-                        <img src={JaquetaPumaFem} alt="jaqueta"/>
-                        <div className="feminino7">
+                        <img src={JaquetaPumaFem} alt="jaqueta" onClick={showFem7}/>
+                        <div className={fem7}>
                             <p>Jaqueta Puma</p>
                             <h2>R$ 259,90</h2>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>
                         </div>                 
-                        <img src={CamisetaLevis} alt="camiseta"/>
-                        <div className="feminino8">
+                        <img src={CamisetaLevis} alt="camiseta" onClick={showFem8}/>
+                        <div className={fem8}>
                             <p>Camiseta Levis</p>
                             <h2>R$ 99,90</h2>
                             <a href="#">
