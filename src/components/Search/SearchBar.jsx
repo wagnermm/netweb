@@ -1,12 +1,9 @@
 import React, { useState } from "react";
 import {BsSearch} from 'react-icons/Bs';
-
 import './SearchBar.css';
 
 function SearchBar() {
-
     const [searchValue, setSearchValue] = useState('');
-
     return(
         <form className="search-bar">
             <input type="search"

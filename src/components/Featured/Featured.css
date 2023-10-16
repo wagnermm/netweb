@@ -67,6 +67,9 @@
 }
 
 .featured-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
     background: #925f30;
     padding: 2rem;
 }
@@ -76,7 +79,6 @@
     width: 250px;
     height: 250px;
     margin-right: 3rem;
-    cursor: pointer;
 }
 
 .featured-item1 {
@@ -180,37 +182,86 @@
     border-radius: 5px;
 }
 
-.item-description {
-    position: relative;
+.item-btn {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.item-description button {
+.item-btn button {
     background: #063549;
     border-radius: 0.5rem;
     width: 6rem;
     height: 2.5rem;
-    z-index: 2;
+    text-decoration: none;
+    color: #fff;
+    border: none;
     visibility: visible;
     cursor: pointer;
 }
 
-.item-description a {
-    text-decoration: none;
+.item-btn button:hover {
+    background-color: #02212f;
+}
+
+.close-item {
+    width: 100%;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.close-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #f00;
     color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .select-item {
-    position: absolute;
-    top: 7vh;
-    left: 0;
+    width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #select {
     height: 1rem;
     margin-left: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.selectCart {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.selectCartBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #063549;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selectCartBtn a {
+    text-decoration: none;
+    color: #fff;
 }
 
 @media (max-width: 1024px) {

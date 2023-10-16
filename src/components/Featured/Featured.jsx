@@ -9,6 +9,7 @@ import Produto3 from './img/product-03.jpg';
 import Produto4 from './img/product-04.jpg';
 import { RiTShirtLine } from 'react-icons/Ri';
 import { GiArmoredPants, GiShorts, GiDress, GiSkirt, GiBeachBag } from 'react-icons/Gi';
+import {GiShoppingCart} from 'react-icons/Gi';
 
 
 
@@ -137,96 +138,124 @@ const Featured=()=> {
                 </div>
                 <div className='featured-item'>
                     <a>
-                        <img onClick={showItem1} src={Produto1} alt="item-1" />
+                        <img src={Produto1} alt="item-1" />
+                        <div className="item-btn">
+                            <button onClick={showItem1}>Aproveite</button>
+                        </div>
                         <div className={item1}>
+                        <div className="close-item">
+                            <div onClick={hideItem1} className="close-btn">X</div>
+                        </div>
                             <div className="items-image">
-                                <img onClick={hideItem1} src={Produto1} alt="calça" />
+                                <img src={Produto1} alt="calça" />
                             </div>
                             <div className="price-item">
                                 <h5>Calça Masculina</h5>
                                 <h6>Apenas</h6>
                                 <h3>R$ 99,00</h3>
                             </div>
-                            <div className="item-description">
-                                <button><a href="#">Comprar</a></button>
-                                <div className="select-item">
-                                    <p>Selecione um tamanho</p>
-                                    <select id='select'>
-                                        <option value=""></option>
-                                        <option value="P">P</option>
-                                        <option value="M">M</option>
-                                        <option value="G">G</option>
-                                        <option value="G">GG</option>
-                                    </select>
+                            <div className="select-item">
+                                <p>Selecione um tamanho</p>
+                                <select id='select'>
+                                    <option value=""></option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
+                                <div className="selectCart">
+                                    <div className="selectCartBtn"><GiShoppingCart/></div>
                                 </div>
                             </div>
                         </div>
                     </a>
                     <a>
-                        <img onClick={showItem2} src={Produto2} alt="item-2" />
+                        <img src={Produto2} alt="item-2" />
+                        <div className="item-btn">
+                            <button onClick={showItem2}>Aproveite</button>
+                        </div>
                         <div className={item2}>
+                        <div className="close-item">
+                            <div onClick={hideItem2} className="close-btn">X</div>
+                        </div>
                             <div className="items-image">
-                                <img onClick={hideItem2} src={Produto2} alt="jaqueta" />
+                                <img src={Produto2} alt="jaqueta" />
                             </div>
                             <div className="price-item">
                                 <h5>Colete</h5>
                                 <h6>Apenas</h6>
                                 <h3>R$ 129,00</h3>
                             </div>
-                            <div className="item-description">
-                                <button><a href="#">Comprar</a></button>
-                                <div className="select-item">
-                                    <p>Selecione um tamanho</p>
-                                    <select id='select'>
-                                        <option value=""></option>
-                                        <option value="P">P</option>
-                                        <option value="M">M</option>
-                                        <option value="G">G</option>
-                                        <option value="G">GG</option>
-                                    </select>
+                            <div className="select-item">
+                                <p>Selecione um tamanho</p>
+                                <select id='select'>
+                                    <option value=""></option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
+                                <div className="selectCart">
+                                    <div className="selectCartBtn">
+                                        <div className="selectCartBtn"><GiShoppingCart/></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </a>
                     <a>
-                        <img onClick={showItem3} src={Produto3} alt="item-3" />
+                        <img src={Produto3} alt="item-3" />
+                        <div className="item-btn">
+                            <button onClick={showItem3}>Aproveite</button>
+                        </div>
                         <div className={item3}>
+                            <div className="close-item">
+                                <div onClick={hideItem3} className="close-btn">X</div>
+                            </div>
                             <div className="items-image">
-                                <img onClick={hideItem3} src={Produto3} alt="blusa" />
+                                <img src={Produto3} alt="blusa" />
                             </div>
                             <div className="price-item">
                                 <h5>Blusa Feminina</h5>
                                 <h6>Apenas</h6>
                                 <h3>R$ 89,00</h3>
                             </div>
-                            <div className="item-description">
-                                <button><a href="#">Comprar</a></button>
-                                <div className="select-item">
-                                    <p>Selecione um tamanho</p>
-                                    <select id='select'>
-                                        <option value=""></option>
-                                        <option value="P">P</option>
-                                        <option value="M">M</option>
-                                        <option value="G">G</option>
-                                        <option value="G">GG</option>
-                                    </select>
+                            <div className="select-item">
+                                <p>Selecione um tamanho</p>
+                                <select id='select'>
+                                    <option value=""></option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
+                                <div className="selectCart">
+                                    <div className="selectCartBtn"><GiShoppingCart/></div>
                                 </div>
                             </div>
                         </div>
                     </a>
                     <a>
-                        <img onClick={showItem4} src={Produto4} alt="item-4" />
+                        <img src={Produto4} alt="item-4" />
+                        <div className="item-btn">
+                            <button onClick={showItem4}>Aproveite</button>
+                        </div>
                         <div className={item4}>
+                        <div className="close-item">
+                            <div onClick={hideItem4} className="close-btn">X</div>
+                        </div>
                             <div className="items-image">
-                                <img onClick={hideItem4} src={Produto4} alt="bolsa" />
+                                <img src={Produto4} alt="bolsa" />
                             </div>
                             <div className="price-item">
                                 <h5>Bolsa</h5>
                                 <h6>Apenas</h6>
                                 <h3>R$ 109,00</h3>
                             </div>
-                            <div className="item-description">
-                                <button><a href="#">Comprar</a></button>
+                            <div className="select-item">
+                                <div className="selectCart">
+                                    <div className="selectCartBtn"><GiShoppingCart/></div>
+                                </div>
                             </div>
                         </div>
                     </a>
