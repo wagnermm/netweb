@@ -1,10 +1,11 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import fetchProducts from '../../api/fetchProducts';
 import './Featured.css';
-import Produto1 from './img/product-01.jpg';
-import Produto2 from './img/product-02.jpg';
-import Produto3 from './img/product-03.jpg';
-import Produto4 from './img/product-04.jpg';
+import Calca from './img/product-01.jpg';
+import Colete from './img/product-02.jpg';
+import Blusa from './img/product-03.jpg';
+import Bolsa from './img/product-04.jpg';
 import {GiShoppingCart} from 'react-icons/Gi';
 
 
@@ -38,6 +39,13 @@ const Featured=()=> {
     const hideItem4=()=> {
         item4 === 'featured-item4' ? setItem4('featured-item4-hidden') : setItem4('featured-item4-hidden');
     };
+const { featuredItem, setFeaturedItem } = useState("");
+    useEffect(() => {
+        fetchProducts('').then((response) => {
+        setFeaturedItem(response);
+        });
+    }, []);
+    console.log(featuredItem);
     return(
         <div>
             <div className="featured">
@@ -46,7 +54,7 @@ const Featured=()=> {
                 </div>
                 <div className='featured-container'>
                     <div className="featured-item">
-                        <img src={Produto1} alt="item-1" />
+                        <img src={Calca} alt="item-1" />
                         <div className="item-btn">
                             <button onClick={showItem1}>Aproveite</button>
                         </div>
@@ -56,7 +64,7 @@ const Featured=()=> {
                             <div onClick={hideItem1} className="close-btn">X</div>
                         </div>
                         <div className="items-image">
-                            <img src={Produto1} alt="calça" />
+                            <img src={Calca} alt="calça" />
                         </div>
                         <div className="price-item">
                             <h5>Calça Masculina</h5>
@@ -78,7 +86,7 @@ const Featured=()=> {
                         </div>
                     </div>
                     <div className="featured-item">
-                        <img src={Produto2} alt="item-2" />
+                        <img src={Colete} alt="item-2" />
                         <div className="item-btn">
                             <button onClick={showItem2}>Aproveite</button>
                         </div>
@@ -88,7 +96,7 @@ const Featured=()=> {
                         <div onClick={hideItem2} className="close-btn">X</div>
                     </div>
                         <div className="items-image">
-                            <img src={Produto2} alt="jaqueta" />
+                            <img src={Colete} alt="jaqueta" />
                         </div>
                         <div className="price-item">
                             <h5>Colete</h5>
@@ -112,7 +120,7 @@ const Featured=()=> {
                         </div>
                     </div>
                     <div className="featured-item">
-                        <img src={Produto3} alt="item-3" />
+                        <img src={Blusa} alt="item-3" />
                         <div className="item-btn">
                             <button onClick={showItem3}>Aproveite</button>
                         </div>
@@ -122,7 +130,7 @@ const Featured=()=> {
                             <div onClick={hideItem3} className="close-btn">X</div>
                         </div>
                         <div className="items-image">
-                            <img src={Produto3} alt="blusa" />
+                            <img src={Blusa} alt="blusa" />
                         </div>
                         <div className="price-item">
                             <h5>Blusa Feminina</h5>
@@ -144,7 +152,7 @@ const Featured=()=> {
                         </div>
                     </div>
                     <div className="featured-item">
-                        <img src={Produto4} alt="item-4" />
+                        <img src={Bolsa} alt="item-4" />
                         <div className="item-btn">
                             <button onClick={showItem4}>Aproveite</button>
                         </div>
@@ -154,7 +162,7 @@ const Featured=()=> {
                         <div onClick={hideItem4} className="close-btn">X</div>
                     </div>
                         <div className="items-image">
-                            <img src={Produto4} alt="bolsa" />
+                            <img src={Bolsa} alt="bolsa" />
                         </div>
                         <div className="price-item">
                             <h5>Bolsa</h5>
