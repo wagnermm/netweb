@@ -22,7 +22,7 @@ const Products=()=> {
     return(
         <div className="products-container" id='clothes'>
             <div className="products-title">
-                <h1>Destaques</h1>
+                <h1>Promoções</h1>
             </div>
             <div className="products-carousel-1">
                 <div className="carouselItem-title">
@@ -35,12 +35,13 @@ const Products=()=> {
                             <p>Camisa Levis</p>
                             <h2>R$ 199,90</h2>
                             <div className="select-masculino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -51,12 +52,13 @@ const Products=()=> {
                             <p>Moleton Coach</p>
                             <h2>R$ 209,90</h2>
                             <div className="select-masculino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -67,12 +69,13 @@ const Products=()=> {
                             <p>Camiseta Gucci</p>
                             <h2>R$ 99,90</h2>
                             <div className="select-masculino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -83,12 +86,13 @@ const Products=()=> {
                             <p>Calça Levis</p>
                             <h2>R$ 199,90</h2>
                             <div className="select-masculino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -101,12 +105,13 @@ const Products=()=> {
                             <p>Agasalho Adidas</p>
                             <h2>R$ 299,90</h2>
                             <div className="select-masculino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -117,12 +122,13 @@ const Products=()=> {
                             <p>Jaqueta Nike</p>
                             <h2>R$ 399,90</h2>
                             <div className="select-masculino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -133,12 +139,13 @@ const Products=()=> {
                             <p>Blusa Puma</p>
                             <h2>R$ 259,90</h2>
                             <div className="select-masculino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -149,12 +156,13 @@ const Products=()=> {
                             <p>Moleton Gucci</p>
                             <h2>R$ 179,90</h2>
                             <div className="select-masculino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -174,12 +182,13 @@ const Products=()=> {
                             <p>Camisa Versace</p>
                             <h2>R$ 189,90</h2>
                             <div className="select-feminino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -190,12 +199,13 @@ const Products=()=> {
                             <p>Blusa Prada</p>
                             <h2>R$ 129,90</h2>
                             <div className="select-feminino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -206,12 +216,13 @@ const Products=()=> {
                             <p>Camiseta Gucci</p>
                             <h2>R$ 99,90</h2>
                             <div className="select-feminino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -222,12 +233,13 @@ const Products=()=> {
                             <p>Moleton Nike</p>
                             <h2>R$ 299,90</h2>
                             <div className="select-feminino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -240,12 +252,13 @@ const Products=()=> {
                             <p>Moleton Adidas</p>
                             <h2>R$ 299,90</h2>
                             <div className="select-feminino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -256,12 +269,13 @@ const Products=()=> {
                             <p>Calça Levis</p>
                             <h2>R$ 199,90</h2>
                             <div className="select-feminino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -272,12 +286,13 @@ const Products=()=> {
                             <p>Jaqueta Puma</p>
                             <h2>R$ 259,90</h2>
                             <div className="select-feminino">
-                                <div className="selectSize">
-                                    <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                    <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                    <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                    <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                                </div>
+                                <select id='select'>
+                                    <option value="">Tamanho</option>
+                                    <option value="P">P</option>
+                                    <option value="M">M</option>
+                                    <option value="G">G</option>
+                                    <option value="G">GG</option>
+                                </select>
                                 <a href="#">
                                     <button className='comprar-item'>Comprar</button>
                                 </a>
@@ -288,12 +303,13 @@ const Products=()=> {
                             <p>Camiseta Levis</p>
                             <h2>R$ 99,90</h2>
                             <div className="select-feminino">
-                                <div className="selectSize">
-                                <input className='inputSize' type="radio" name='size' value="p"/>P <br/>
-                                <input className='inputSize' type="radio" name='size' value="m"/>M <br/>
-                                <input className='inputSize' type="radio" name='size' value="g"/>G <br/>
-                                <input className='inputSize' type="radio" name='size' value="gg"/>GG
-                            </div>
+                            <select id='select'>
+                                <option value="">Tamanho</option>
+                                <option value="P">P</option>
+                                <option value="M">M</option>
+                                <option value="G">G</option>
+                                <option value="G">GG</option>
+                            </select>
                             <a href="#">
                                 <button className='comprar-item'>Comprar</button>
                             </a>

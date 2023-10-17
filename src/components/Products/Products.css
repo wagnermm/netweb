@@ -41,7 +41,6 @@
     width: 20%;
     height: 250px;
     margin-right: 2rem;
-    cursor: pointer;
 }
 
 .item-carousel img:hover {
@@ -292,9 +291,9 @@
 }
 
 .select-masculino, .select-feminino {
-    width: 100%;
     display: flex;
     flex-direction: column-reverse;
+    gap: 1rem;
 }
 
 .comprar-item {
@@ -308,19 +307,6 @@
 
 .comprar-item:hover {
     background: #024e6e;
-}
-
-.selectSize {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    background-color: #ddd;
-    border: 1px solid #300101;
-    gap: 0.5rem;
-    color: #300101;
-    font-weight: 700;
-    margin-top: 1rem;
 }
 
 @media (max-width: 480px) {

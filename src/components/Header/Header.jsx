@@ -27,7 +27,7 @@ function Header() {
                     <ul>
                         <div onClick={closeMenu} className="close__menu">X</div>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#clothes">Confecções</a></li>
+                        <li><a href="#clothes">Promoções</a></li>
                         <li><a href="#bags">Acessórios</a></li>
                         <li><a href="#information">Informações</a></li>
                     </ul>
